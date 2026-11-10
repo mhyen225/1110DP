@@ -1,0 +1,12 @@
+{
+  "title": "Remember Lamp",
+  "language": "ko",
+  "description": "외출 전 지갑과 차키를 감지해 준비 상태를 알려주는 반응형 IoT 램프 대시보드입니다.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
