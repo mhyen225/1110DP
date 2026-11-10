@@ -71,3 +71,7 @@ loadPower(): Promise<boolean>;              // 앱 시작 시 device_state.led_o
 
 ### Supabase를 아직 연결하지 않았을 때
 URL이 `<project>`를 포함하면 **데모 모드**: 0.5초마다 가상 센서값(사인파)을 만들어 같은 콜백으로 흘려보낸다. 제품 설명 아래에 `t-caption` `--ink-muted`로 "데모 데이터로 표시 중" 한 줄 표시.
+
+## GitHub Pages 배포
+
+저장소의 `main` 브랜치에 push하면 `.github/workflows/deploy.yml`이 앱을 빌드해 GitHub Pages에 배포한다. 저장소 Settings → Pages에서 Build and deployment의 Source를 **GitHub Actions**로 설정한다. 프로젝트 저장소 URL은 `https://mhyen225.github.io/1110DP/`이다.
